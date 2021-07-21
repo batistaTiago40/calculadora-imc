@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #28706c;
+}
+
+.box {
+  border-radius: 1rem;
+  background-color: #fff;
+  padding: 0 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin: 5rem 0 10rem 0;
+}
+
+.box h2 {
+  font-size: 3rem;
+  margin-top: 1.5rem;
+}
+
+.box input {
+  width: 40rem;
+  height: 3rem;
+  background-color: #57b9b3;
+  border: 0;
+  border-radius: 3rem;
+  font-size: 2rem;
+  outline: transparent;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+.box #button {
+  margin-top: 3rem;
+  border-radius: 1rem;
+  border: 0;
+  background-color: #f3643f;
+}
+
+.box .resultado {
+  margin: 6rem 0;
+  text-align: center;
+}
+
+.box .resultado h2 {
+  font-size: 4rem;
+}
+
+.box .resultado h3 {
+  font-size: 3rem;
+}
